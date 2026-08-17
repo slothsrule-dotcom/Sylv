@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat-700';
+  src: url('Montserrat.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    background: linear-gradient(45deg, #dfc016, #06ecce);
+}
+
+#date {
+    text-align: center;
+    font-size: 150px;
+    font-family: 'Montserrat-700';
+}
